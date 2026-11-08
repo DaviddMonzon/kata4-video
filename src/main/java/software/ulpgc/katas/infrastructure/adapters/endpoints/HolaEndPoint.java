@@ -16,6 +16,6 @@ public class HolaEndPoint implements EndPoint {
 
     @Override
     public void execute() {
-        context.result("Hola" + context.pathParam("name") + "!!!");
+        context.result("Hola " + context.pathParam("name") + "!!!");
     }
 }
